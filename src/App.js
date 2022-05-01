@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <section className="App-section">
-          <div className="App-section-title"> Html5-qrcode React demo</div>
+          <div className="App-section-title"> </div>
           <br />
           <br />
           <br />
@@ -30,7 +30,7 @@ class App extends React.Component {
             disableFlip={false}
             qrCodeSuccessCallback={this.onNewScanResult}/>
           <ResultContainerPlugin results={this.state.decodedResults} />
-          <HowToUse />
+          {/* <HowToUse /> */}
         </section>
       </div>
     );
